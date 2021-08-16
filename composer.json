@@ -1,0 +1,28 @@
+{
+  "name": "continue-team/mjollnir-extended",
+  "description": "Ext-Mjollnir-API",
+  "type": "library",
+  "require": {
+    "php": ">=7.1.0"
+  },
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Continue Team",
+      "email": "administrator@continue.team"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Mjollnir\\": "src/Mjollnir/"
+    },
+    "files": [
+      "src/Mjollnir/Base.php"
+    ]
+  },
+  "require-dev": {
+    "symfony/console": " ^3.0",
+    "guzzlehttp/guzzle": "^7.0"
+  },
+  "minimum-stability": "dev"
+}

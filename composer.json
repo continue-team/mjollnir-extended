@@ -17,7 +17,7 @@
       "Mjollnir\\": "src/Mjollnir/"
     },
     "files": [
-      "src/Mjollnir/Base.php"
+      "src/Mjollnir/Request.php"
     ]
   },
   "require-dev": {

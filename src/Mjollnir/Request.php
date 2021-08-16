@@ -2,7 +2,7 @@
 
 namespace Mjollnir;
 
-class Base {
+class Request {
 
     public $_url = false;
 
@@ -11,8 +11,14 @@ class Base {
         $this->_url = \getenv("MJOLLNIR_URL");
     }
 
-    public function validate($request) {
+    public function validate() {
 
         return true;
+    }
+
+    public function curl($data) {
+        $response = $data;
+
+        return $response;
     }
 }
